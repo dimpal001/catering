@@ -52,7 +52,7 @@ body, h1, h2, h3, h4, h5, h6, p{
     display: none;
 }
 #check:checked ~ ul{
-    height: 50%;
+    height: 40px;
 }
 /* ------------------background-image------------------------ */
 .first-page-image{
@@ -214,6 +214,7 @@ form button:hover{
         background-color: rgb(204, 207, 204);
         transition: 0.3s;
         height: 0;
+        line-height: 40px;
     }
     .about{
         display: block;
